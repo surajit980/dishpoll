@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* style for all element */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* style Login container */
+.login-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #a8a8a8;
+  background-color: #f8f9fa;
+  width: 500px;
+}
+
+/* style main component */
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-card {
+  width: 500px;
+}
+.tab-btn {
+  margin: 10px;
+}
+
+/* dishes component style */
+.dishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.dish-card {
+  margin: 5px 0px;
+}
+
+/* ranking component style */
+.ranking-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ranking-table {
+  width: 500px;
 }
